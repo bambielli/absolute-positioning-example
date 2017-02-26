@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Positioning Example</title>
+  <link rel="stylesheet" href="style.css"></link>
+</head>
+
+<body>
+
+  <div class="container" id="notRel">
+    <div class="centerDiv" id="rel">
+      <h3 class="centerText">Position: relative</h3>
+    </div>
+    <div id="abs"><h4 class="centerText">Position: absolute</h4></div>
+  </div>
+  <div class="container">
+    <button class="centerDiv">Toggle</button>
+  </div>
+
+  <div class="container centerText">
+  <h2>Explanation:</h2>
+    <p>
+      Positioning someting as <strong>absolute</strong> will position it relative to the nearest relatively positioned parent element.
+    </p>
+    <p>
+      If there is no relatively positioned parent, the aboslute element will be positioned <strong>relative to the body</strong>
+    </p>
+    <p>
+      Before toggling, the teal box is <strong>outside of</strong> the black box in the DOM. It is being positioned relative to the body
+    </p>
+    <p>
+      After toggling, the teal box is <strong>appended to the black box as a child element.</strong>
+    </p>
+    <p>
+      Since the black box is positioned relatively, the teal box is then positioned <strong>relative to the black box.</strong>
+    </p>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

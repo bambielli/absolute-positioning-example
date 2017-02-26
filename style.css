@@ -1,0 +1,41 @@
+#abs {
+  background-color: mediumaquamarine;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+#rel {
+  background-color: black;
+  width:200px;
+  height:200px;
+  position: relative;
+}
+
+#rel h3 {
+  margin-top: 0px;
+  padding-top: 10px;
+  color: white;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.centerDiv {
+  margin: 0px auto;
+}
+
+.container {
+  margin: 10px 0px 10px 0px;
+}
+body {
+  margin: 0px 0px 0px 0px;
+}
+
+button {
+  display: block;
+  font-size: 1.5em;
+}
