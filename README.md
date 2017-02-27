@@ -1,6 +1,6 @@
-# positioning
+# [absolute-positioning-example](http://www.bambielli.com/absolute-positioning-example/)
 Positioning Practice
 
-Referenced in blogpost on www.bambielli.com
+Referenced in blogpost http://www.bambielli.com/til/2017-02-26-css-positioning/
 
-This example demonstrates how absolute positioning works
+An example to demonstrate how absolute positioning works.
